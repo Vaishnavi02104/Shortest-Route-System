@@ -1,1 +1,4 @@
 # Shortest-Route-System
+The primary goal of this project is to develop a Shortest Route System that can suggest the fastest and most efficient route between two locations in a city by using Dijkstra’s Algorithm on a road network. The road network is represented as a graph, where roads and intersections act as edges and nodes. The project uses OpenStreetMap (OSM) data, accessed via the OSMNx Python library, to build this network for a specific city such as Delhi or Bangalore.
+As a result, the system can calculate the shortest or fastest route not just by distance but also by the traffic conditions.
+The final output is an interactive route visualization using Folium, which shows the recommended path on a map. This system demonstrates how combining open-source mapping tools with graph algorithms can help reduce traffic congestion, save travel time, and improve overall urban mobility.
